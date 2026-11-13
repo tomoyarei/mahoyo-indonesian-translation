@@ -9,6 +9,13 @@ Mod ini dibuat oleh **Tomoya Rei** dan mencakup:
 - Watermark pada gambar judul mod.
 - Installer dengan fitur pencadangan dan pemulihan file game.
 
+## Unduh
+
+Versi terbaru dapat diunduh dari halaman
+[Releases](https://github.com/tomoyarei/mahoyo-indonesian-translation/releases).
+
+[Unduh installer terbaru](https://github.com/tomoyarei/mahoyo-indonesian-translation/releases/latest)
+
 ## Persyaratan
 
 - Witch on the Holy Night versi PC yang sudah terpasang.
