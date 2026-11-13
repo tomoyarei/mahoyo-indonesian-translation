@@ -25,6 +25,11 @@ def hide_windows_path(path: Path) -> None:
         ctypes.windll.kernel32.SetFileAttributesW(str(path), 0x02)
 
 
+def show_windows_path(path: Path) -> None:
+    if sys.platform == "win32":
+        ctypes.windll.kernel32.SetFileAttributesW(str(path), 0x80)
+
+
 def find_game_folder() -> Path | None:
     candidates = [
         Path(r"C:\Program Files (x86)\Steam\steamapps\common\WITCH ON THE HOLY NIGHT"),
@@ -92,7 +97,9 @@ def restore() -> None:
     try:
         for name, backup in available.items():
             target_name = name.replace(".original", "")
-            copy_verified(backup, game_dir / target_name)
+            target = game_dir / target_name
+            copy_verified(backup, target)
+            show_windows_path(target)
         messagebox.showinfo("Berhasil", "File asli berhasil dipulihkan.")
     except Exception as error:
         messagebox.showerror("Pemulihan gagal", str(error))
