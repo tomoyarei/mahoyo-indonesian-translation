@@ -61,7 +61,7 @@ Pemulihan mengembalikan file game dari backup yang dibuat saat pemasangan.
 ## Catatan Penting
 
 - Tutup game sebelum memasang atau memulihkan mod.
-- Cadangkan file game secara manual jika diperlukan.
+- Cadangkan file game secara manual jika diperlukan (file `data00000.hfa` dan `data00200.hfa`).
 - Jangan mengubah nama file HFA selama proses berlangsung.
 - Mod ini dibuat untuk penggunaan pribadi.
 - Jangan mengunggah aset game asli atau file HFA lengkap ke repository publik.
