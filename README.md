@@ -2,10 +2,15 @@
 
 Mod terjemahan Bahasa Indonesia untuk **Witch on the Holy Night**.
 
+<img width="1920" height="1080" alt="ss_title" src="https://github.com/user-attachments/assets/b0e521c3-7f79-4b84-8d59-642624d2aea3" />
+
+
 ## Cakupan Terjemahan
 
 - Mod ini menerjemahkan naskah cerita utama, termasuk dialog dan narasi.
 - Menu, tombol, pengaturan, subtitle video, serta elemen antarmuka lainnya belum diterjemahkan.
+(tampilkan screenshot dialog di dalam game nya)<img width="1920" height="1080" alt="ingame_3" src="https://github.com/user-attachments/assets/5deb0a1e-fc8d-4651-87af-ea6cdd45e182" />
+
 
 ## Dukungan Sistem Operasi
 
@@ -23,29 +28,17 @@ Installer tidak memerlukan Visual C++ Redistributable, .NET Framework, atau Pyth
 2. Pastikan Windows memiliki izin Read/Write ke folder instalasi game.
 3. Jalankan installer.
 4. Klik tombol pemasangan mod.
+<img width="619" height="288" alt="exe_1" src="https://github.com/user-attachments/assets/163955ee-397b-47e6-92f1-1ed786941d79" />
+
 5. Pilih folder instalasi game yang berisi `data00000.hfa` dan `data00200.hfa`.
+<img width="944" height="592" alt="lokasi_game" src="https://github.com/user-attachments/assets/2607ebbe-9233-48f4-b86b-086586d2546c" />
+
 6. Tunggu sampai muncul pesan bahwa pemasangan berhasil.
+<img width="264" height="208" alt="instal_mod" src="https://github.com/user-attachments/assets/a1cf33fc-9e25-4a7b-b16b-e38281fcdfbb" />
+
 7. Jalankan game seperti biasa.
 
 Installer akan mencadangkan file game sebelum menggantinya. Jangan hapus file backup jika masih ingin memulihkan versi asli.
-
-## Verifikasi Installer
-
-Installer resmi tersedia di halaman [Releases](https://github.com/tomoyarei/mahoyo-indonesian-translation/releases/latest).
-
-SHA-256 untuk `TomoyaReiModInstaller.exe` pada rilis `v1.0.0`:
-
-```text
-26E7CADE319C7CFFA04CC2D01D542B41823766CDCACEC39D90750CF86EBFED01
-```
-
-Di PowerShell, jalankan perintah berikut pada folder tempat installer berada:
-
-```powershell
-Get-FileHash .\TomoyaReiModInstaller.exe -Algorithm SHA256
-```
-
-Hasil `Hash` harus sama persis dengan nilai di atas.
 
 ## Cara Memulihkan
 
@@ -53,6 +46,8 @@ Hasil `Hash` harus sama persis dengan nilai di atas.
 2. Pilih opsi pemulihan atau penghapusan mod.
 3. Pilih folder game.
 4. Tunggu sampai proses selesai.
+<img width="286" height="208" alt="restore_sukses" src="https://github.com/user-attachments/assets/e69fd3e5-fe9b-44d4-b122-a329f2c47c4b" />
+
 
 Pemulihan mengembalikan file game dari backup yang dibuat saat pemasangan.
 
@@ -60,7 +55,7 @@ Pemulihan mengembalikan file game dari backup yang dibuat saat pemasangan.
 
 - Tutup game dan Steam sebelum memasang atau memulihkan mod.
 - Jika muncul `Permission denied`, jalankan installer sebagai administrator dan pastikan file game tidak sedang digunakan.
-- Jika installer mendeteksi folder yang salah, pilih folder yang langsung berisi `data00000.hfa` dan `data00200.hfa`.
+- Jika installer mendeteksi folder yang salah, pilih folder game yang langsung berisi `data00000.hfa` dan `data00200.hfa`.
 - Jangan menghapus file backup sebelum memastikan mod berjalan dengan baik.
 
 ## Catatan Penting
