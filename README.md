@@ -74,6 +74,10 @@ Pemulihan mengembalikan file game dari backup yang dibuat saat pemasangan.
 
 Witch on the Holy Night adalah milik pemegang hak cipta masing-masing. Repository ini hanya berisi file mod dan alat pemasang yang dibuat untuk proyek ini.
 
+## Feedback
+
+If you have any feedback, please DM me at Discord @tomoyarei or Tomoya Rei #0574
+
 ## Acknowledgements
 
 - [mahoyo_tools](https://github.com/loicfrance/mahoyo_tools), untuk membantu membaca dan mengonversi format aset Mahoyo.
