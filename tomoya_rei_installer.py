@@ -27,7 +27,6 @@ def hide_windows_path(path: Path) -> None:
 
 def find_game_folder() -> Path | None:
     candidates = [
-        Path(r"D:\SteamLibrary\steamapps\common\WITCH ON THE HOLY NIGHT"),
         Path(r"C:\Program Files (x86)\Steam\steamapps\common\WITCH ON THE HOLY NIGHT"),
         Path(r"C:\Program Files\Steam\steamapps\common\WITCH ON THE HOLY NIGHT"),
     ]
