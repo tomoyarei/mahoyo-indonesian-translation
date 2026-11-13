@@ -84,7 +84,7 @@ Witch on the Holy Night adalah milik pemegang hak cipta masing-masing. Repositor
 - [mahoyo_tools](https://github.com/loicfrance/mahoyo_tools), untuk membantu membaca dan mengonversi format aset Mahoyo.
 - [HunexFileArchiveTool](https://github.com/LinkOFF7/HunexFileArchiveTool), untuk mengekstrak dan membangun kembali arsip `.hfa`.
 - [PyInstaller](https://github.com/pyinstaller/pyinstaller), untuk membuat installer Windows dalam format `.exe`.
-- - AI digunakan sebagai alat bantu dalam penyusunan, pemeriksaan, dan penyempurnaan terjemahan.
+- - ChatGPT dan Claude digunakan sebagai alat bantu dalam penyusunan, pemeriksaan, dan penyempurnaan terjemahan.
 
 ## License
 
