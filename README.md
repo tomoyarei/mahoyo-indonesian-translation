@@ -2,34 +2,30 @@
 
 Mod terjemahan Bahasa Indonesia untuk **Witch on the Holy Night**.
 
-Mod ini dibuat oleh **Tomoya Rei** dan mencakup:
+## Cakupan Terjemahan
 
-- Dialog Bahasa Indonesia yang telah disesuaikan agar lebih natural.
-- Penyesuaian narasi dan gaya bicara karakter.
-- Watermark pada gambar judul mod.
-- Installer dengan fitur pencadangan dan pemulihan file game.
+- Mod ini menerjemahkan naskah cerita utama, termasuk dialog dan narasi.
+- Menu, tombol, pengaturan, subtitle video, serta elemen antarmuka lainnya belum diterjemahkan.
 
-## Unduh
+## Dukungan Sistem Operasi
 
-Versi terbaru dapat diunduh dari halaman
-[Releases](https://github.com/tomoyarei/mahoyo-indonesian-translation/releases).
-
-[Unduh installer terbaru](https://github.com/tomoyarei/mahoyo-indonesian-translation/releases/latest)
+- Installer ini hanya dapat dijalankan di Windows.
 
 ## Persyaratan
 
-- Witch on the Holy Night versi PC yang sudah terpasang.
-- Windows 10 atau Windows 11.
-- Hak akses untuk menulis ke folder instalasi game.
+- Witch on the Holy Night versi PC Windows yang sudah terpasang.
+
+Installer tidak memerlukan Visual C++ Redistributable, .NET Framework, atau Python secara terpisah.
 
 ## Cara Memasang
 
 1. Unduh `TomoyaReiModInstaller.exe` dari bagian **Releases**.
-2. Jalankan installer.
-3. Pilih folder instalasi game.
+2. Pastikan Windows memiliki izin Read/Write ke folder instalasi game.
+3. Jalankan installer.
 4. Klik tombol pemasangan mod.
-5. Tunggu sampai muncul pesan bahwa pemasangan berhasil.
-6. Jalankan game seperti biasa.
+5. Pilih folder instalasi game yang berisi `data00000.hfa` dan `data00200.hfa`.
+6. Tunggu sampai muncul pesan bahwa pemasangan berhasil.
+7. Jalankan game seperti biasa.
 
 Installer akan mencadangkan file game sebelum menggantinya. Jangan hapus file backup jika masih ingin memulihkan versi asli.
 
@@ -54,8 +50,8 @@ Hasil `Hash` harus sama persis dengan nilai di atas.
 ## Cara Memulihkan
 
 1. Jalankan kembali installer.
-2. Pilih folder game yang sama.
-3. Pilih opsi pemulihan atau penghapusan mod.
+2. Pilih opsi pemulihan atau penghapusan mod.
+3. Pilih folder game.
 4. Tunggu sampai proses selesai.
 
 Pemulihan mengembalikan file game dari backup yang dibuat saat pemasangan.
@@ -77,6 +73,8 @@ Pemulihan mengembalikan file game dari backup yang dibuat saat pemasangan.
 
 ## Kredit
 
-Mod Bahasa Indonesia oleh **Tomoya Rei**.
+- Mod Bahasa Indonesia oleh **Tomoya Rei**.
+- AI-assisted translation of Witch on the Holy Night.
+- Installer dan proses packaging dibuat untuk proyek ini oleh **Tomoya Rei**.
 
 Witch on the Holy Night adalah milik pemegang hak cipta masing-masing. Repository ini hanya berisi file mod dan alat pemasang yang dibuat untuk proyek ini.
