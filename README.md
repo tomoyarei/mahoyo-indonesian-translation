@@ -9,7 +9,7 @@ Mod terjemahan Bahasa Indonesia untuk **Witch on the Holy Night**.
 
 - Mod ini menerjemahkan naskah cerita utama, termasuk dialog dan narasi.
 - Menu, tombol, pengaturan, subtitle video, serta elemen antarmuka lainnya belum diterjemahkan.
-(tampilkan screenshot dialog di dalam game nya)<img width="1920" height="1080" alt="ingame_3" src="https://github.com/user-attachments/assets/5deb0a1e-fc8d-4651-87af-ea6cdd45e182" />
+<img width="1920" height="1080" alt="ingame_3" src="https://github.com/user-attachments/assets/5deb0a1e-fc8d-4651-87af-ea6cdd45e182" />
 
 
 ## Dukungan Sistem Operasi
