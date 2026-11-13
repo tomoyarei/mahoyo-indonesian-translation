@@ -78,3 +78,7 @@ Pemulihan mengembalikan file game dari backup yang dibuat saat pemasangan.
 - Installer dan proses packaging dibuat untuk proyek ini oleh **Tomoya Rei**.
 
 Witch on the Holy Night adalah milik pemegang hak cipta masing-masing. Repository ini hanya berisi file mod dan alat pemasang yang dibuat untuk proyek ini.
+
+## License
+
+This project is licensed under the MIT License. For more details, see the [LICENSE](LICENSE) file.
