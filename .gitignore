@@ -1,0 +1,48 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build dan hasil PyInstaller
+build/
+dist/
+*.spec
+
+# File sementara
+*.tmp
+*.temp
+*.log
+~$*
+
+# File hasil ekstraksi atau arsip game
+data00000/
+data00010/
+data00100/
+data00200/
+data00300/
+data00400/
+data02*/
+data03*/
+data04*/
+extracted_*/
+*_extracted/
+
+# Arsip game dan backup
+*.hfa
+*.hfa.backup*
+*.hfa.bak*
+*.ctd
+*.mzp
+*.cbg
+*.ccit
+
+# Folder kerja lokal
+work/
+outputs/
+original_data*/
+hfa_input/
