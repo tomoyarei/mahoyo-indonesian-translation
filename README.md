@@ -76,7 +76,7 @@ Witch on the Holy Night adalah milik pemegang hak cipta masing-masing. Repositor
 
 ## Feedback
 
-If you have any feedback, please DM me at Discord @tomoyarei or Tomoya Rei #0574
+If you have any feedback, please DM me at Discord @tomoyarei / Tomoya Rei #0574
 
 ## Acknowledgements
 
