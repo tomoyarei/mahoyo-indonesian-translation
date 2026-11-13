@@ -24,7 +24,7 @@ Installer tidak memerlukan Visual C++ Redistributable, .NET Framework, atau Pyth
 
 ## Cara Memasang
 
-1. Unduh `TomoyaReiModInstaller.exe` dari bagian **Releases**.
+1. Unduh `TomoyaReiModInstaller.exe` atau `TomoyaReiMahoyoIndo.zip` dari bagian **Releases**.
 2. Pastikan Windows memiliki izin Read/Write ke folder instalasi game.
 3. Jalankan installer.
 4. Klik tombol pemasangan mod.
