@@ -1,28 +1,42 @@
 from pathlib import Path
 import shutil
 import sys
+import argparse
 
 
-TOOLS_DIR = Path(r"D:\mod")
-SOURCE_HFA = Path(r"C:\Users\nuran\Documents\Codex\2026-11-10\referenced-chatgpt-conversation-this-is-an\data00200.hfa")
-TRANSLATION_CTD = Path(__file__).with_name("script_text_en.ctd")
-OUTPUT_HFA = Path(__file__).with_name("data00200_TomoyaRei_aligned.hfa")
+SCRIPT_DIR = Path(__file__).resolve().parent
 
 
 def main() -> None:
-    if not SOURCE_HFA.is_file():
-        raise FileNotFoundError(f"HFA sumber tidak ditemukan: {SOURCE_HFA}")
-    if not TRANSLATION_CTD.is_file():
-        raise FileNotFoundError(f"CTD revisi tidak ditemukan: {TRANSLATION_CTD}")
+    parser = argparse.ArgumentParser(description="Menyisipkan CTD terjemahan ke arsip HFA.")
+    parser.add_argument("source_hfa", type=Path, help="Arsip HFA asli sebagai sumber.")
+    parser.add_argument("translation_ctd", type=Path, help="File CTD terjemahan yang sudah disejajarkan.")
+    parser.add_argument("output_hfa", type=Path, help="Nama file HFA hasil.")
+    parser.add_argument(
+        "--tools-dir",
+        type=Path,
+        default=SCRIPT_DIR,
+        help="Folder yang berisi package mahoyo_tools.",
+    )
+    args = parser.parse_args()
 
-    sys.path.insert(0, str(TOOLS_DIR))
+    source_hfa = args.source_hfa.resolve()
+    translation_ctd = args.translation_ctd.resolve()
+    output_hfa = args.output_hfa.resolve()
+
+    if not source_hfa.is_file():
+        raise FileNotFoundError(f"HFA sumber tidak ditemukan: {source_hfa}")
+    if not translation_ctd.is_file():
+        raise FileNotFoundError(f"CTD revisi tidak ditemukan: {translation_ctd}")
+
+    sys.path.insert(0, str(args.tools_dir.resolve()))
     from mahoyo_tools.hfa import HfaArchive
 
-    shutil.copy2(SOURCE_HFA, OUTPUT_HFA)
-    with HfaArchive(str(OUTPUT_HFA), "rw") as archive:
-        archive["script_text_en.ctd"].inject(str(TRANSLATION_CTD))
+    shutil.copy2(source_hfa, output_hfa)
+    with HfaArchive(str(output_hfa), "rw") as archive:
+        archive["script_text_en.ctd"].inject(str(translation_ctd))
 
-    print(f"HFA selesai dibuat: {OUTPUT_HFA}")
+    print(f"HFA selesai dibuat: {output_hfa}")
 
 
 if __name__ == "__main__":
