@@ -27,7 +27,7 @@ Installer tidak memerlukan Visual C++ Redistributable, .NET Framework, atau Pyth
 1. Unduh `TomoyaReiModInstaller.exe` atau `TomoyaReiMahoyoIndo.zip` dari bagian **Releases**.
 2. Pastikan Windows memiliki izin Read/Write ke folder instalasi game.
 3. Jalankan installer.
-4. Klik tombol pemasangan mod.
+4. Klik tombol PASANG MOD.
 <img width="619" height="288" alt="exe_1" src="https://github.com/user-attachments/assets/163955ee-397b-47e6-92f1-1ed786941d79" />
 
 5. Pilih folder instalasi game yang berisi `data00000.hfa` dan `data00200.hfa`.
@@ -43,7 +43,7 @@ Installer akan mencadangkan file game sebelum menggantinya. Jangan hapus file ba
 ## Cara Memulihkan
 
 1. Jalankan kembali installer.
-2. Pilih opsi pemulihan atau penghapusan mod.
+2. Pilih opsi tombol PULIHKAN FILE ASLI.
 3. Pilih folder game.
 4. Tunggu sampai proses selesai.
 <img width="286" height="208" alt="restore_sukses" src="https://github.com/user-attachments/assets/e69fd3e5-fe9b-44d4-b122-a329f2c47c4b" />
