@@ -104,7 +104,7 @@ Proses pemulihan mengembalikan file game dari cadangan yang dibuat saat pemasang
 
 ## Umpan Balik
 
-Kritik, saran, dan laporan bug dapat disampaikan melalui Discord: **@tomoyarei** (Tomoya Rei #0574).
+Kritik, saran, dan laporan bug dapat disampaikan melalui Discord: [**@tomoyarei**](https://discord.com/users/392987823059238912) (Tomoya Rei #0574).
 
 ## Ucapan Terima Kasih
 
