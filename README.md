@@ -1,90 +1,118 @@
+<div align="center">
+
 # Mahoyo Indonesian Translation Mod
 
-Mod terjemahan Bahasa Indonesia untuk **Witch on the Holy Night**.
+**Patch terjemahan fans Bahasa Indonesia untuk *Witch on the Holy Night* (Mahoyo) versi PC.**
+
+![Platform](https://img.shields.io/badge/platform-Windows-blue)
+![Bahasa](https://img.shields.io/badge/bahasa-Indonesia-red)
+![Lisensi](https://img.shields.io/badge/lisensi-MIT-green)
 
 <img width="1920" height="1080" alt="ss_title" src="https://github.com/user-attachments/assets/b0e521c3-7f79-4b84-8d59-642624d2aea3" />
 
+</div>
+
+---
+
+## Tentang Proyek
+
+Proyek ini merupakan terjemahan non-komersial buatan penggemar (*fan translation*) untuk visual novel **Witch on the Holy Night** (*Mahoutsukai no Yoru*). Patch dikemas dalam sebuah installer Windows sehingga proses pemasangan dan pemulihan dapat dilakukan tanpa konfigurasi manual.
+
+Proyek ini tidak berafiliasi dengan pengembang maupun penerbit resmi. Diperlukan salinan game orisinal yang sah untuk menggunakan patch ini.
+
+## Fitur
+
+- Terjemahan naskah cerita utama, mencakup dialog dan narasi.
+- Installer Windows mandiri, tanpa dependensi tambahan.
+- Pencadangan otomatis file game sebelum dimodifikasi.
+- Fitur pemulihan ke file asli dengan satu klik.
 
 ## Cakupan Terjemahan
 
-- Mod ini menerjemahkan naskah cerita utama, termasuk dialog dan narasi.
-- Menu, tombol, pengaturan, subtitle video, serta elemen antarmuka lainnya belum diterjemahkan.
+| Komponen | Status |
+|---|---|
+| Dialog dan narasi cerita utama | Diterjemahkan |
+| Menu, tombol, dan pengaturan | Belum diterjemahkan |
+| Subtitle video | Belum diterjemahkan |
+| Elemen antarmuka lainnya | Belum diterjemahkan |
+
 <img width="1920" height="1080" alt="ingame_3" src="https://github.com/user-attachments/assets/5deb0a1e-fc8d-4651-87af-ea6cdd45e182" />
-
-
-## Dukungan Sistem Operasi
-
-- Installer ini hanya dapat dijalankan di Windows.
 
 ## Persyaratan
 
-- Witch on the Holy Night versi PC Windows yang sudah terpasang.
+- Sistem operasi **Windows**.
+- *Witch on the Holy Night* versi PC (Windows) yang sudah terpasang.
 
-Installer tidak memerlukan Visual C++ Redistributable, .NET Framework, atau Python secara terpisah.
+Installer tidak memerlukan Visual C++ Redistributable, .NET Framework, maupun Python secara terpisah.
 
-## Cara Memasang
+## Panduan Pemasangan
 
 1. Unduh `TomoyaReiModInstaller.exe` atau `TomoyaReiMahoyoIndo.zip` dari bagian **Releases**.
-2. Pastikan Windows memiliki izin Read/Write ke folder instalasi game.
+2. Pastikan Windows memiliki izin *Read/Write* ke folder instalasi game.
 3. Jalankan installer.
-4. Klik tombol PASANG MOD.
-<img width="619" height="288" alt="exe_1" src="https://github.com/user-attachments/assets/163955ee-397b-47e6-92f1-1ed786941d79" />
+4. Klik tombol **PASANG MOD**.
+
+   <img width="619" height="288" alt="exe_1" src="https://github.com/user-attachments/assets/163955ee-397b-47e6-92f1-1ed786941d79" />
 
 5. Pilih folder instalasi game yang berisi `data00000.hfa` dan `data00200.hfa`.
-<img width="944" height="592" alt="lokasi_game" src="https://github.com/user-attachments/assets/2607ebbe-9233-48f4-b86b-086586d2546c" />
 
-6. Tunggu sampai muncul pesan bahwa pemasangan berhasil.
-<img width="264" height="208" alt="instal_mod" src="https://github.com/user-attachments/assets/a1cf33fc-9e25-4a7b-b16b-e38281fcdfbb" />
+   <img width="944" height="592" alt="lokasi_game" src="https://github.com/user-attachments/assets/2607ebbe-9233-48f4-b86b-086586d2546c" />
+
+6. Tunggu hingga muncul pesan bahwa pemasangan berhasil.
+
+   <img width="264" height="208" alt="instal_mod" src="https://github.com/user-attachments/assets/a1cf33fc-9e25-4a7b-b16b-e38281fcdfbb" />
 
 7. Jalankan game seperti biasa.
 
-Installer akan mencadangkan file game sebelum menggantinya. Jangan hapus file backup jika masih ingin memulihkan versi asli.
+> [!NOTE]
+> Installer akan mencadangkan file game sebelum menggantinya. File cadangan sebaiknya tidak dihapus apabila versi asli masih ingin dipulihkan.
 
-## Cara Memulihkan
+## Panduan Pemulihan
 
 1. Jalankan kembali installer.
-2. Pilih opsi tombol PULIHKAN FILE ASLI.
-3. Pilih folder game.
-4. Tunggu sampai proses selesai.
-<img width="286" height="208" alt="restore_sukses" src="https://github.com/user-attachments/assets/e69fd3e5-fe9b-44d4-b122-a329f2c47c4b" />
+2. Klik tombol **PULIHKAN FILE ASLI**.
+3. Pilih folder instalasi game.
+4. Tunggu hingga proses selesai.
 
+   <img width="286" height="208" alt="restore_sukses" src="https://github.com/user-attachments/assets/e69fd3e5-fe9b-44d4-b122-a329f2c47c4b" />
 
-Pemulihan mengembalikan file game dari backup yang dibuat saat pemasangan.
+Proses pemulihan mengembalikan file game dari cadangan yang dibuat saat pemasangan.
 
-## Kendala Umum
+## Pemecahan Masalah
 
-- Tutup game dan Steam sebelum memasang atau memulihkan mod.
-- Jika muncul `Permission denied`, jalankan installer sebagai administrator dan pastikan file game tidak sedang digunakan.
-- Jika installer mendeteksi folder yang salah, pilih folder game yang langsung berisi `data00000.hfa` dan `data00200.hfa`.
-- Jangan menghapus file backup sebelum memastikan mod berjalan dengan baik.
+| Masalah | Solusi |
+|---|---|
+| Pemasangan atau pemulihan gagal | Tutup game dan Steam sebelum memulai proses. |
+| Muncul pesan `Permission denied` | Jalankan installer sebagai administrator dan pastikan file game tidak sedang digunakan. |
+| Installer mendeteksi folder yang salah | Pilih folder yang langsung berisi `data00000.hfa` dan `data00200.hfa`. |
+| Mod tidak berjalan dengan baik | Jangan hapus file cadangan hingga mod dipastikan berfungsi normal. |
 
 ## Catatan Penting
 
 - Tutup game sebelum memasang atau memulihkan mod.
-- Cadangkan file game secara manual jika diperlukan (file `data00000.hfa` dan `data00200.hfa`).
+- Lakukan pencadangan manual untuk file `data00000.hfa` dan `data00200.hfa` apabila diperlukan.
 - Jangan mengubah nama file HFA selama proses berlangsung.
 - Mod ini dibuat untuk penggunaan pribadi.
-- Jangan mengunggah aset game asli atau file HFA lengkap ke repository publik.
+- Dilarang mengunggah aset game asli maupun file HFA lengkap ke repository publik.
 
 ## Kredit
 
-- Mod Bahasa Indonesia oleh **Tomoya Rei**.
-- AI-assisted translation of Witch on the Holy Night.
-- Installer dan proses packaging dibuat untuk proyek ini oleh **Tomoya Rei**.
+- **Tomoya Rei**: terjemahan Bahasa Indonesia, installer, serta proses *packaging*.
+- Terjemahan dibantu oleh AI (*AI-assisted translation*).
 
-Witch on the Holy Night adalah milik pemegang hak cipta masing-masing. Repository ini hanya berisi file mod dan alat pemasang yang dibuat untuk proyek ini.
+*Witch on the Holy Night* adalah milik pemegang hak ciptanya masing-masing. Repository ini hanya berisi file mod dan alat pemasang yang dibuat untuk proyek ini.
 
-## Feedback
+## Umpan Balik
 
-If you have any feedback, please DM me at Discord @tomoyarei / Tomoya Rei #0574
+Kritik, saran, dan laporan bug dapat disampaikan melalui Discord: **@tomoyarei** (Tomoya Rei #0574).
 
-## Acknowledgements
+## Ucapan Terima Kasih
 
-- [mahoyo_tools](https://github.com/loicfrance/mahoyo_tools), untuk membantu membaca dan mengonversi format aset Mahoyo.
-- [HunexFileArchiveTool](https://github.com/LinkOFF7/HunexFileArchiveTool), untuk mengekstrak dan membangun kembali arsip `.hfa`.
-- [PyInstaller](https://github.com/pyinstaller/pyinstaller), untuk membuat installer Windows dalam format `.exe`.
-- ChatGPT dan Claude digunakan sebagai alat bantu dalam penyusunan, pemeriksaan, dan penyempurnaan terjemahan.
+- [mahoyo_tools](https://github.com/loicfrance/mahoyo_tools): membaca dan mengonversi format aset Mahoyo.
+- [HunexFileArchiveTool](https://github.com/LinkOFF7/HunexFileArchiveTool): mengekstrak dan membangun kembali arsip `.hfa`.
+- [PyInstaller](https://github.com/pyinstaller/pyinstaller): membuat installer Windows dalam format `.exe`.
+- ChatGPT dan Claude: alat bantu dalam penyusunan, pemeriksaan, dan penyempurnaan terjemahan.
 
-## License
+## Lisensi
 
-This project is licensed under the MIT License. For more details, see the [LICENSE](LICENSE) file.
+Proyek ini dilisensikan di bawah Lisensi MIT. Rincian lengkap tersedia pada berkas [LICENSE](LICENSE).
